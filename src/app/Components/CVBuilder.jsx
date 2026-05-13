@@ -6,7 +6,7 @@ let _id = 0;
 const uid = () => `id_${++_id}_${Date.now()}`;
 
 const defaultSection = () => ({ id: uid(), heading: "", details: "", useBullets: false });
-f
+
 const initialState = {
   name: "", subtitle: "", email: "", phone: "", address: "",
   linkedin: "", github: "",
