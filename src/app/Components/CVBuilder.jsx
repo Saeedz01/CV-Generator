@@ -10,7 +10,7 @@ const initialState = {
   linkedin: "", github: "",
   sections: [defaultSection()],
 };
-// make the text clickable
+// make the text clickable...
 function linkedinLabel(url) {
   if (!url) return "";
   try {
